@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings</title>
+    <title>DentalART</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
@@ -186,24 +185,65 @@
             </ul>
         </nav>
     </aside>
-    <div class="col-md-3">
-        <div id="sidebar" style="float: left;">
-            <ul class="nav navbar-nav side-bar">
-                <li class="side-bar tmargin"><a href="general.html" target="frame"><span class="fa fa-cog"></span>
-                        General</a></li>
-                <li class="side-bar"><a href="security.html" target="frame"><span class="fa fa-shield"></span>
-                        Security</a></li>
-                <li class="side-bar"><a href="reports.html" target="frame"><span class="fa fa-file"></span> Reports</a>
-                </li>
-                <li class="side-bar">
-                    <a href="payment.html" target="frame"><span class="fa fa-dollar"></span> Payment Method</a></li>
-            </ul>
-        </div>
-    </div>
-    <div style="float: left; width: 50%;"><br> <br><br> <br> g</div>
-    <div class="g-general">
-        <iframe name="frame" src="general.html" width="100%" height="100%"></iframe>
-    </div>
+    <main>
+        <section>
+            <div class="container">
+
+                <header class="cl-page-title">
+                    <span>Make an Appointment</span>
+                    <small class="md-txt">Welcome Sathish, <a
+                            href="https://www.google.com/maps/place/3720+Emerald+St,+Torrance,+CA+90503/@33.8403836,-118.3543828,17z/data=!4m18!1m15!4m14!1m6!1m2!1s0x80c2b4d407f58b11:0xdedca55964c89054!2s3720+Emerald+St,+Torrance,+CA+90503!2m2!1d-118.3520761!2d33.8403792!1m6!1m2!1s0x80c2b4d407f58b11:0xdedca55964c89054!2s3720+Emerald+St,+Torrance,+CA+90503!2m2!1d-118.3520761!2d33.8403792!3m1!1s0x80c2b4d407f58b11:0xdedca55964c89054"
+                            target="_blank"><i class="fa fa-map-marker cl-txt-danger"></i> California</a></small>
+                </header>
+                <br>
+
+                <div class="shadow p-4 mb-4 bg-white" style="width: 50%; height: 650px; float: left;">
+                    <div class="form-group col-md-6" style="display: inline;">
+                        <label for="inputname"> Name</label>
+                        <input type="text" class="form-control" id="inputname" placeholder="">
+                    </div>
+                    <div class="form-group col-md-6" style="display: inline;">
+                        <label for="inputlastname">Last Name</label>
+                        <input type="text" class="form-control" id="inputlastname" placeholder="">
+                    </div>
+                    <div class="form-group col-md-6" style="display: inline;">
+                        <label for="inputCity">Note</label>
+                        <textarea class="form-control" id="inputCity"> </textarea>
+                    </div>
+                    <div class="form-group col-md-4" style="display: inline;">
+                        <label for="inputState">Reminder</label>
+                        <select id="inputState" class="form-control">
+
+                            <option value="mail" selected>E-mail</option>
+                            <option value="sms">SMS</option>
+                        </select>
+                    </div>
+                    <div class="shadow p-4 mb-4 bg-white" style="margin-top: 200px;">
+                        <ul class="pagination" style="margin-left: 40%;">
+                            <li class="page-item ">
+                                <a class="page-link" tabindex="-1" target="_self">Previous</a>
+                            </li>
+                            <li li class="page-item active"><a class="page-link">1 <span
+                                        class="sr-only">(current)</span></a></li>
+                            <li class="page-item ">
+                                <a class="page-link" href="appointment2.html" target="_self">2 </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#" target="_self">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="appointment2.html" target="_self">Next</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shadow p-4 mb-4 bg-white" style="width: 50%; float: right; height: 650px;">
+                    <iframe style="width: 100%; height: 550px; background-color: brown;"
+                        src="date/jquery.simple-dtpicker.html"> f </iframe>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'></script>
