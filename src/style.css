@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #f0f0f0;
+  background: #f5f5f5;
   line-height: normal;
   font-size: 16px;
   overflow-Y: scroll;
@@ -783,19 +783,34 @@ a:hover {
   border-radius: 3px;
 }
 
-.col-xl-4,
-.col-xl-8 {
+.raw>.col-xl-4 {
   position: fixed;
   width: 100%;
-  padding-left: 112px;
+  padding-left: 110px;
+  padding-right: 40px;
   right: 15px;
-  bottom: 15px;
+  bottom: 16px;
+
 }
 
-.col-xl-8 {
+.raw>.col-xl-8 {
   position: fixed;
   width: 100%;
-  left: 140px;
   bottom: 15px;
-  padding-right: 70px;
+  padding-left: 222px;
+  padding-right: 0px;
+  margin-left: 50px;
+}
+
+.raw {
+  display: flex;
+  padding-top: 325px;
+  padding-left: 0px;
+  padding-right: 38px;
+}
+
+.content {
+  padding-top: 100px;
+  padding-left: 240px;
+  padding-right: 15px;
 }

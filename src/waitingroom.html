@@ -11,6 +11,10 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css'>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="ass/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="ass/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="ass/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./dentist.png">
     <!-- Scripts -->
 
 </head>
@@ -41,6 +45,11 @@
                                 <li class="cl-notification-item">
                                     <a class="cl-notification-content lg-text" href="profile.html"><i
                                             class="fa fa-edit"></i> My Profile</a>
+                                </li>
+                                <li class="cl-notification-item">
+                                    <a class="cl-notification-content lg-text" href="profile.html"><i
+                                            class="fa fa-edit"></i> Edit Profile
+                                    </a>
                                 </li>
                                 <li class="cl-notification-item">
                                     <a class="cl-notification-content lg-text" href="#"><i class="fa fa-power-off"></i>
@@ -139,108 +148,153 @@
 
     </section>
     <aside>
-        <nav class="cl-sidebar cl-nav-min">
-            <ul>
-                <li>
-                    <a href="index.html" target="_self" class="inbox">
-                        <i class="fa fa-dashboard">
-                            <span class="icon-bg cl-bg-success"></span>
-                        </i>
-                        <span class="cl-sidebar-item">Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="patients.html" target="_self">
-                        <i class="fa fa-calendar">
-                            <span class="icon-bg cl-bg-danger"></span>
-                        </i>
-                        <span class="cl-sidebar-item">Patients</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="waitingroom.html" target="_self">
-                        <i class="fa fa-clock-o">
-                            <span class="icon-bg cl-bg-primary"></span>
-                        </i>
-                        <span class="cl-sidebar-item">Waiting room</span>
-                    </a>
-                </li>
+       <nav class="cl-sidebar cl-nav-min">
+      <ul>
+        <li>
+          <a href="index.html" target="_self" class="inbox">
+            <i class="fa fa-dashboard">
+              <span class="icon-bg cl-bg-success"></span>
+            </i>
+            <span class="cl-sidebar-item">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="patients.html" target="_self">
+            <i class="fa fa-calendar">
+              <span class="icon-bg cl-bg-danger"></span>
+            </i>
+            <span class="cl-sidebar-item">Patients</span>
+          </a>
+        </li>
+        <li>
+          <a href="waitingroom.html" target="_self">
+            <i class="fa fa-clock-o">
+              <span class="icon-bg cl-bg-primary"></span>
+            </i>
+            <span class="cl-sidebar-item">Waiting room</span>
+          </a>
+        </li>
 
-                <li>
-                    <a href="emergency.html" target="_self">
-                        <i class="fa fa-plus-square">
-                            <span class="icon-bg cl-bg-warning"></span>
-                        </i>
-                        <span class="cl-sidebar-item">Emergency calls</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="settings.html">
-                        <i class="fa fa-wrench">
-                            <span class="icon-bg cl-bg-violet"></span>
-                        </i>
-                        <span class="cl-sidebar-item">Settings</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <li>
+          <a href="emergency.html" target="_self">
+            <i class="fa fa-plus-square">
+              <span class="icon-bg cl-bg-warning"></span>
+            </i>
+            <span class="cl-sidebar-item">Emergency calls</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="fa fa-wrench">
+              <span class="icon-bg cl-bg-violet"></span>
+            </i>
+            <span class="cl-sidebar-item">Settings</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
     </aside>
     <main>
         <section>
             <div class="container">
 
                 <header class="cl-page-title">
-                    <span>Make an Appointment</span>
+                    <span>Prescriptions History</span>
                     <small class="md-txt">Welcome Sathish, <a
                             href="https://www.google.com/maps/place/3720+Emerald+St,+Torrance,+CA+90503/@33.8403836,-118.3543828,17z/data=!4m18!1m15!4m14!1m6!1m2!1s0x80c2b4d407f58b11:0xdedca55964c89054!2s3720+Emerald+St,+Torrance,+CA+90503!2m2!1d-118.3520761!2d33.8403792!1m6!1m2!1s0x80c2b4d407f58b11:0xdedca55964c89054!2s3720+Emerald+St,+Torrance,+CA+90503!2m2!1d-118.3520761!2d33.8403792!3m1!1s0x80c2b4d407f58b11:0xdedca55964c89054"
                             target="_blank"><i class="fa fa-map-marker cl-txt-danger"></i> California</a></small>
                 </header>
                 <br>
 
-                <div class="shadow p-4 mb-4 bg-white" style="width: 50%; height: 650px; float: left;">
-                    <div class="form-group col-md-6" style="display: inline;">
-                        <label for="inputname"> Name</label>
-                        <input type="text" class="form-control" id="inputname" placeholder="">
-                    </div>
-                    <div class="form-group col-md-6" style="display: inline;">
-                        <label for="inputlastname">Last Name</label>
-                        <input type="text" class="form-control" id="inputlastname" placeholder="">
-                    </div>
-                    <div class="form-group col-md-6" style="display: inline;">
-                        <label for="inputCity">Note</label>
-                        <textarea class="form-control" id="inputCity"> </textarea>
-                    </div>
-                    <div class="form-group col-md-4" style="display: inline;">
-                        <label for="inputState">Reminder</label>
-                        <select id="inputState" class="form-control">
-
-                            <option value="mail" selected>E-mail</option>
-                            <option value="sms">SMS</option>
-                        </select>
-                    </div>
-                    <div class="shadow p-4 mb-4 bg-white" style="margin-top: 200px;">
-                        <ul class="pagination" style="margin-left: 40%;">
-                            <li class="page-item ">
-                                <a class="page-link" tabindex="-1" target="_self">Previous</a>
-                            </li>
-                            <li li class="page-item active"><a class="page-link">1 <span
-                                        class="sr-only">(current)</span></a></li>
-                            <li class="page-item ">
-                                <a class="page-link" href="appointment2.html" target="_self">2 </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#" target="_self">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="appointment2.html" target="_self">Next</a>
-                            </li>
-                        </ul>
+                <div class="card-content">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>DOCTOR</th>
+                                    <th>DATE</th>
+                                    <th>PRESCRIPTION</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="success">
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>11/20/2012</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="info">
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>11/01/2015</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>11/31/2017</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>4</td>
+                                    <td>John</td>
+                                    <td>04/20/2010</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="success">
+                                    <td>5</td>
+                                    <td>Mark</td>
+                                    <td>11/20/2012</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="info">
+                                    <td>6</td>
+                                    <td>Jacob</td>
+                                    <td>11/01/2015</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>7</td>
+                                    <td>Larry</td>
+                                    <td>11/31/2017</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>8</td>
+                                    <td>John</td>
+                                    <td>04/20/2010</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="success">
+                                    <td>9</td>
+                                    <td>Mark</td>
+                                    <td>11/20/2012</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="info">
+                                    <td>10</td>
+                                    <td>Jacob</td>
+                                    <td>11/01/2015</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>11</td>
+                                    <td>Larry</td>
+                                    <td>11/31/2017</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>12</td>
+                                    <td>John</td>
+                                    <td>04/20/2010</td>
+                                    <td><a href="">prescription.pdf</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div class="shadow p-4 mb-4 bg-white" style="width: 50%; float: right; height: 650px;">
-                    <iframe style="width: 100%; height: 550px; background-color: brown;"
-                        src="date/jquery.simple-dtpicker.html"> f </iframe>
-
-                </div>
-
+            </div>
             </div>
         </section>
     </main>

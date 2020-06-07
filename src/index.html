@@ -2,11 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>My space</title>
-  <base href="./" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/x-icon" href="dentist.png" />
+  <title>DentalART</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
@@ -15,6 +13,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css" />
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./style1.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="ass/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="ass/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="ass/css/style.css"> 
+  <link rel="shortcut icon" type="image/x-icon" href="./dentist.png">
 
   <!-- Scripts -->
 </head>
@@ -43,8 +46,12 @@
                   alt="me" /></a>
               <ul class="cl-dropmenu-item sm-menu">
                 <li class="cl-notification-item">
-                  <a class="cl-notification-content lg-text" href="profile.html"><i class="fa fa-edit"></i> My
-                    Profile</a>
+                  <a class="cl-notification-content lg-text" href="profile.html"><i class="fa fa-edit"></i> My Profile
+                  </a>
+                </li>
+                <li class="cl-notification-item">
+                  <a class="cl-notification-content lg-text" href="profile.html"><i class="fa fa-edit"></i> Edit Profile
+                  </a>
                 </li>
                 <li class="cl-notification-item">
                   <a class="cl-notification-content lg-text" href="#"><i class="fa fa-power-off"></i> Sign out</a>
@@ -155,7 +162,7 @@
     </header>
   </section>
   <aside>
-    <nav class="cl-sidebar cl-nav-min">
+<nav class="cl-sidebar cl-nav-min">
       <ul>
         <li>
           <a href="index.html" target="_self" class="inbox">
@@ -199,7 +206,6 @@
           </a>
         </li>
       </ul>
-    </nav>
   </aside>
   <main>
     <section>
@@ -238,7 +244,7 @@
         <br />
       </div>
     </section>
-    <div class="row">
+    <div class="raw">
       <div class="col-12 col-md-6 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header">
@@ -368,7 +374,7 @@
               <li>
                 <div class="contact-cont">
                   <div class="float-left user-img m-r-10">
-                    <a href="profile.html" title="John Doe"><img src="./assets/img/user.jpg" alt=""
+                    <a href="profile.html" title="John Doe"><img src="./assets/img/doctor-thumb-01.jpg" alt=""
                         class="w-40 rounded-circle" /><span class="status online"></span></a>
                   </div>
                   <div class="contact-info">
@@ -380,7 +386,7 @@
               <li>
                 <div class="contact-cont">
                   <div class="float-left user-img m-r-10">
-                    <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt=""
+                    <a href="profile.html" title="Richard Miles"><img src="assets/img/doctor-thumb-02.jpg" alt=""
                         class="w-40 rounded-circle" /><span class="status offline"></span></a>
                   </div>
                   <div class="contact-info">
@@ -392,7 +398,7 @@
               <li>
                 <div class="contact-cont">
                   <div class="float-left user-img m-r-10">
-                    <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt=""
+                    <a href="profile.html" title="John Doe"><img src="assets/img/doctor-thumb-03.jpg" alt=""
                         class="w-40 rounded-circle" /><span class="status away"></span></a>
                   </div>
                   <div class="contact-info">
@@ -404,7 +410,7 @@
               <li>
                 <div class="contact-cont">
                   <div class="float-left user-img m-r-10">
-                    <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt=""
+                    <a href="profile.html" title="Richard Miles"><img src="assets/img/doctor-thumb-04.jpg" alt=""
                         class="w-40 rounded-circle" /><span class="status online"></span></a>
                   </div>
                   <div class="contact-info">
@@ -416,7 +422,7 @@
               <li>
                 <div class="contact-cont">
                   <div class="float-left user-img m-r-10">
-                    <a href="profile.html" title="John Doe"><img src="assets/img/user.jpg" alt=""
+                    <a href="profile.html" title="John Doe"><img src="assets/img/doctor-thumb-05.jpg" alt=""
                         class="w-40 rounded-circle" /><span class="status offline"></span></a>
                   </div>
                   <div class="contact-info">
@@ -428,7 +434,7 @@
               <li>
                 <div class="contact-cont">
                   <div class="float-left user-img m-r-10">
-                    <a href="profile.html" title="Richard Miles"><img src="assets/img/user.jpg" alt=""
+                    <a href="profile.html" title="Richard Miles"><img src="assets/img/doctor-thumb-06.jpg" alt=""
                         class="w-40 rounded-circle" /><span class="status away"></span></a>
                   </div>
                   <div class="contact-info">
@@ -456,7 +462,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js"></script>
   <script src="https://jvectormap.com/js/jquery-jvectormap-1.2.2.min.js"></script>
-  <script src="./src/script.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
