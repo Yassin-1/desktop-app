@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css'>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />
+
+
+
+
+
+
+</head>
+
+<body>
+    <form>
+        <fieldset class="c-form">
+            <legend>Set your credit card</legend>
+
+            <div class="form-group">
+                <label for="c-card">Your credit card number</label>
+                <input type="text" class="form-control" id="c-card" placeholder="Credit card num">
+                <small class="form-text text-muted">You are the only one who have access to your card.</small>
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+                <div class="c-forma">
+                    <div class="label">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="city">
+                    </div>
+                    <div class="label" style="margin-left: 10px;">
+                        <label for="c-card" style="margin-top: 18px;">Country</label>
+                        <div class="form-group" style="margin-left: 10px;">
+
+                            <select class="custom-select">
+                                <option selected="">Select your country</option>
+                                <option value="1">Tunisia</option>
+                                <option value="2">Soudia Arabia</option>
+                                <option value="3">England</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <label for="customRadio1">Payment Currency</label>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input"
+                            checked="">
+                        <label class="custom-control-label" for="customRadio1">USD</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">ريال</label>
+                    </div>
+                </div>
+            </div>
+            <legend>Pay in cash</legend>
+            <div class="form-group">
+                <label for="c-id">ID</label>
+                <input type="text" class="form-control" id="c-id" placeholder="id">
+                <small class="form-text text-muted">You are the only one who have access to your ID</small>
+                <label for="c-in">Insurence number</label>
+                <input type="text" class="form-control" id="c-in" aria-describedby="emailHelp"
+                    placeholder="Insurence number">
+                <small id="in-help" class="form-text text-muted" style="padding-bottom: 15px;">Your insurence number is
+                    fully secure.</small>
+                <a class="pay-cash" href="#">Set this form for Payment in Cash.<span
+                        class="fa fa-exclamation-circle"></span></a>
+                <legend style="padding-top: 15px;">Fidelity Card setup</legend>
+                <div class="form-group">
+                    <label for="c-id">ID</label>
+                    <input type="text" class="form-control" id="c-id" placeholder="id">
+                    <small class="form-text text-muted">You are the only one who have access to your ID</small>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <!-- partial -->
+
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js'></script>
+    <script src='https://code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.3/jquery.slimscroll.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.8.0/lodash.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js'></script>
+    <script src='https://jvectormap.com/js/jquery-jvectormap-1.2.2.min.js'></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
