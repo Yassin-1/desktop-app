@@ -16,13 +16,5 @@
     "bootstrap": "^4.5.0",
     "electron": "8.2.5",
     "jquery": "^3.5.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yassin-1/desktop-app.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Yassin-1/desktop-app/issues"
-  },
-  "homepage": "https://github.com/Yassin-1/desktop-app#readme"
+  }
 }
