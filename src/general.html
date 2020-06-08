@@ -1,157 +1,100 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title> </title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<head>
+  <title> Settings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css" />
+  <link rel="stylesheet" href="./style.css" />
 
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css"
-      rel="stylesheet"
-    />
-  </head>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
 
-  <body>
-    <form>
-      <div class="general">
-        <div class="col">
-          <legend>General</legend>
-          <input
-            type="text"
-            id="gen"
-            class="form-control"
-            placeholder="First name"
-          />
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" />
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="phone number" />
-        </div>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <form>
+    <div class="general">
+      <div class="col">
+        <legend>General</legend>
+        <input type="text" id="gen" class="form-control" placeholder="First name" />
       </div>
-      <br />
-      <div class="security">
-        <div class="col">
-          <legend>Security</legend>
-          <input
-            type="email"
-            class="form-control"
-            id="sec"
-            placeholder="E-mail"
-          />&nbsp;<a href="#"><strong>Change</strong></a>
-          <input
-            type="password"
-            class="form-control"
-            placeholder="password"
-          />&nbsp;<a href="#"><strong>Change</strong></a>
-        </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" />
       </div>
-      <br />
-      <div class="btn-group">
-        <legend>Change your langage</legend>
-        <button
-          type="button"
-          class="btn btn-primary"
-          id="lang"
-          style="width: fit-content;"
-        >
-          Choose a lang...
-        </button>
-        <div class="btn-group" role="group">
-          <button
-            id="btnGroupDrop1"
-            type="button"
-            class="btn btn-primary dropdown-toggle"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          ></button>
-          <div
-            class="dropdown-menu"
-            aria-labelledby="btnGroupDrop1"
-            style="width: fit-content;"
-          >
-            <a class="dropdown-item" href="#"
-              >English
-              <span style="margin-left: 5px;">
-                <img
-                  src="img/the-united-states-flag-icon-free-download.jpg"
-                  width="15px"
-                  height="15px" /></span
-            ></a>
-            <a class="dropdown-item" href="#"
-              >Arabic
-              <span style="margin-left: 10px;">
-                <img
-                  src="img/saudi-arabia-flag-icon-free-download.jpg"
-                  width="16px"
-                  height="16px" /></span
-            ></a>
-          </div>
-        </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="phone number" />
       </div>
-      <button type="button" class="btn btn-primary btn-lg btn-block">
-        Save changes
+    </div>
+    <br />
+    <div class="security">
+      <div class="col">
+        <legend>Security</legend>
+        <input type="email" class="form-control" id="sec" placeholder="E-mail" />&nbsp;<a
+          href="#"><strong>Change</strong></a>
+        <input type="password" class="form-control" placeholder="password" />&nbsp;<a
+          href="#"><strong>Change</strong></a>
+      </div>
+    </div>
+    <br />
+    <div class="btn-group">
+      <legend>Change your langage</legend>
+      <button type="button" class="btn btn-primary" id="lang" style="width: fit-content;">
+        Choose a lang...
       </button>
-    </form>
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"></button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="width: fit-content;">
+          <a class="dropdown-item" href="#">English
+            <span style="margin-left: 5px;">
+              <img src="img/the-united-states-flag-icon-free-download.jpg" width="15px" height="15px" /></span></a>
+          <a class="dropdown-item" href="#">Arabic
+            <span style="margin-left: 10px;">
+              <img src="img/saudi-arabia-flag-icon-free-download.jpg" width="16px" height="16px" /></span></a>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block">
+      Save changes
+    </button>
+  </form>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery-1.10.2.min.js"></script>
+  <!-- jQuery -->
+  <script src="js/jquery-1.10.2.min.js"></script>
 
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap Form Helpers -->
-    <script src="js/bootstrap-formhelpers.min.js"></script>
-    <script>
-      $(function () {
-        $(".selectpicker").selectpicker();
-      });
-    </script>
-    <!-- partial -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.3/jquery.slimscroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.8.0/lodash.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js"></script>
-    <script src="https://jvectormap.com/js/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="./script.js"></script>
-  </body>
+  <!-- Bootstrap Form Helpers -->
+  <script src="js/bootstrap-formhelpers.min.js"></script>
+  <script>
+    $(function () {
+      $(".selectpicker").selectpicker();
+    });
+  </script>
+  <!-- partial -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.3/jquery.slimscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.8.0/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js"></script>
+  <script src="https://jvectormap.com/js/jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>
