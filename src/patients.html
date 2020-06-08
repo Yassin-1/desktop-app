@@ -11,10 +11,6 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css'>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" type="text/css" href="ass/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="ass/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="ass/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="./dentist.png">
     <!-- Scripts -->
 
 </head>
@@ -45,11 +41,6 @@
                                 <li class="cl-notification-item">
                                     <a class="cl-notification-content lg-text" href="profile.html"><i
                                             class="fa fa-edit"></i> My Profile</a>
-                                </li>
-                                <li class="cl-notification-item">
-                                    <a class="cl-notification-content lg-text" href="profile.html"><i
-                                            class="fa fa-edit"></i> Edit Profile
-                                    </a>
                                 </li>
                                 <li class="cl-notification-item">
                                     <a class="cl-notification-content lg-text" href="#"><i class="fa fa-power-off"></i>
@@ -148,51 +139,51 @@
 
     </section>
     <aside>
-<nav class="cl-sidebar cl-nav-min">
-      <ul>
-        <li>
-          <a href="index.html" target="_self" class="inbox">
-            <i class="fa fa-dashboard">
-              <span class="icon-bg cl-bg-success"></span>
-            </i>
-            <span class="cl-sidebar-item">Dashboard</span>
-          </a>
-        </li>
-        <li>
-          <a href="patients.html" target="_self">
-            <i class="fa fa-calendar">
-              <span class="icon-bg cl-bg-danger"></span>
-            </i>
-            <span class="cl-sidebar-item">Patients</span>
-          </a>
-        </li>
-        <li>
-          <a href="waitingroom.html" target="_self">
-            <i class="fa fa-clock-o">
-              <span class="icon-bg cl-bg-primary"></span>
-            </i>
-            <span class="cl-sidebar-item">Waiting room</span>
-          </a>
-        </li>
+        <nav class="cl-sidebar cl-nav-min">
+            <ul>
+                <li>
+                    <a href="index.html" target="_self" class="inbox">
+                        <i class="fa fa-dashboard">
+                            <span class="icon-bg cl-bg-success"></span>
+                        </i>
+                        <span class="cl-sidebar-item">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="patients.html" target="_self">
+                        <i class="fa fa-calendar">
+                            <span class="icon-bg cl-bg-danger"></span>
+                        </i>
+                        <span class="cl-sidebar-item">Patients</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="waitingroom.html" target="_self">
+                        <i class="fa fa-clock-o">
+                            <span class="icon-bg cl-bg-primary"></span>
+                        </i>
+                        <span class="cl-sidebar-item">Waiting room</span>
+                    </a>
+                </li>
 
-        <li>
-          <a href="emergency.html" target="_self">
-            <i class="fa fa-plus-square">
-              <span class="icon-bg cl-bg-warning"></span>
-            </i>
-            <span class="cl-sidebar-item">Emergency calls</span>
-          </a>
-        </li>
-        <li>
-          <a href="settings.html">
-            <i class="fa fa-wrench">
-              <span class="icon-bg cl-bg-violet"></span>
-            </i>
-            <span class="cl-sidebar-item">Settings</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+                <li>
+                    <a href="emergency.html" target="_self">
+                        <i class="fa fa-plus-square">
+                            <span class="icon-bg cl-bg-warning"></span>
+                        </i>
+                        <span class="cl-sidebar-item">Emergency calls</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa fa-wrench">
+                            <span class="icon-bg cl-bg-violet"></span>
+                        </i>
+                        <span class="cl-sidebar-item">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </aside>
     <main>
         <section>
@@ -206,95 +197,48 @@
                 </header>
                 <br>
 
-                <div class="card-content">
-                    <div class="table-responsive">
-                        <table class="table">
+                <div class="shadow p-4 mb-4 bg-white">
+
+                    <br> <br>
+                    <div class="tab">
+                        <table class="table table-sm">
                             <thead>
                                 <tr>
-                                    <th></th>
-                                    <th>DOCTOR</th>
-                                    <th>DATE</th>
-                                    <th>PRESCRIPTION</th>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Doctor</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Prescription</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="success">
-                                    <td>1</td>
-                                    <td>Mark</td>
-                                    <td>11/20/2012</td>
-                                    <td><a href="">prescription.pdf</a></td>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
                                 </tr>
-                                <tr class="info">
-                                    <td>2</td>
-                                    <td>Jacob</td>
-                                    <td>11/01/2015</td>
-                                    <td><a href="">prescription.pdf</a></td>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
                                 </tr>
-                                <tr class="warning">
-                                    <td>3</td>
-                                    <td>Larry</td>
-                                    <td>11/31/2017</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="danger">
-                                    <td>4</td>
-                                    <td>John</td>
-                                    <td>04/20/2010</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="success">
-                                    <td>5</td>
-                                    <td>Mark</td>
-                                    <td>11/20/2012</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="info">
-                                    <td>6</td>
-                                    <td>Jacob</td>
-                                    <td>11/01/2015</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="warning">
-                                    <td>7</td>
-                                    <td>Larry</td>
-                                    <td>11/31/2017</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="danger">
-                                    <td>8</td>
-                                    <td>John</td>
-                                    <td>04/20/2010</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="success">
-                                    <td>9</td>
-                                    <td>Mark</td>
-                                    <td>11/20/2012</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="info">
-                                    <td>10</td>
-                                    <td>Jacob</td>
-                                    <td>11/01/2015</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="warning">
-                                    <td>11</td>
-                                    <td>Larry</td>
-                                    <td>11/31/2017</td>
-                                    <td><a href="">prescription.pdf</a></td>
-                                </tr>
-                                <tr class="danger">
-                                    <td>12</td>
-                                    <td>John</td>
-                                    <td>04/20/2010</td>
-                                    <td><a href="">prescription.pdf</a></td>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <br> <br>
+
+
+
                 </div>
-            </div>
             </div>
         </section>
     </main>
