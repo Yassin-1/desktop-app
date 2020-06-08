@@ -4,8 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "electron": "^1.4.13",
-    "pack": "^2.2.0"
+    "electron": "^1.4.13"
   },
   "scripts": {
     "start": "electron ."
